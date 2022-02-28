@@ -6,7 +6,7 @@ app = Flask(__name__)
 def main():
     return "<h1>BLA BLA BLA</h1>"
 
-@app.route('/AVI')
+@app.route('/avi')
 def hello():
     return 'MAORIKCHIK'
 
