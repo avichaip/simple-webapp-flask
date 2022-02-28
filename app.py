@@ -1,14 +1,14 @@
-import os
+Vimport os
 from flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "<h1>Welcome! Avichaichik</h1>"
+    return "<h1>BLA BLA BLA</h1>"
 
-@app.route('/how are you')
+@app.route('/AVI')
 def hello():
-    return 'I am good, how about you?'
+    return 'MAORIKCHIK'
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
